@@ -21,3 +21,27 @@ header > h1 {
   font-weight: 500;
   font-family: Inter, sans-serif;
 }
+
+article.journal-entry {
+  display: flex;
+}
+
+article.journal-entry .marker {
+  width: 7px;
+  margin-right: 4px;
+}
+
+article.journal-entry .main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+.main-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
